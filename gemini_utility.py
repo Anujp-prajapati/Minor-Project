@@ -3,7 +3,7 @@ import json
 import google.generativeai as genai
 
 # working directory path
-working_dir = os.path.dirname(os.path.abspath(_file_))
+working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # path of config_data file
 config_file_path = f"{working_dir}/config.json"
